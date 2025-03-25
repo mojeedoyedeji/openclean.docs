@@ -1,0 +1,49 @@
+site_name: CareerMaple Docs
+site_url: https://careermaple.readthedocs.io/
+repo_url: https://github.com/mojeedoyedeji/careermaple.docs
+docs_dir: docs/source/content
+
+theme:
+  name: readthedocs
+  nav_style: dark
+  highlightjs: true
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_style: sphinx
+
+markdown_extensions:
+  - markdown_include.include:
+      base_path: .
+  - admonition
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Overview: getting-started/overview.md
+      - User Roles & Permissions: getting-started/user-roles.md
+      - Account Credentials: getting-started/account.md
+      - CareerMaple Dashboard: getting-started/dashboard.md
+      - Institutions:
+          - Alberta: institutions/alberta.md
+          - British Columbia: institutions/british_columbia.md
+          - Manitoba: institutions/manitoba.md
+          - Nova Scotia: institutions/nova_scotia.md
+          - New Brunswick: institutions/new_brunswick.md
+          - Newfoundland and Labrador: institutions/newfoundland.md
+          - Northwest Territories: institutions/northwest.md
+          - Nuvanut: institutions/nuvanut.md
+          - Ontario: institutions/ontario.md
+          - Prince Edwards Island: institutions/pei.md
+          - Quebec: institutions/quebec.md
+          - Sasktachewan: institutions/saskatchewan.md
+          - Yukon: institutions/yukon.md
+  - How to Guides:
+      - Manage Institutions: guide/postman/institutions.md
+      - Manage Listings: guide/postman/listings.md
+  - Glossary & References:
+      - Key Terms: glossary/terms.md
+      - External Resources: glossary/references.md

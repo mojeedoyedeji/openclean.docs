@@ -1,0 +1,31 @@
+# Quebec
+
+### Universities
+
+| University Name                        | City        | Career Website                                                                                                   | Email                     |
+| -------------------------------------- | ----------- | ---------------------------------------------------------------------------------------------------------------- | ------------------------- |
+| McGill University                      | Montreal    | [mcgill.ca/caps/](https://www.mcgill.ca/caps/)                                                                   | careers.caps@mcgill.ca    |
+| Concordia University                   | Montreal    | [concordia.ca/jmsb/career.html](https://www.concordia.ca/jmsb/career.html)                                       | careers.jmsb@concordia.ca |
+| Université de Montréal                 | Montreal    | [sve.umontreal.ca/](https://sve.umontreal.ca/)                                                                   | sve@umontreal.ca          |
+| Université Laval                       | Quebec City | [spl.ulaval.ca/](https://www.spl.ulaval.ca/)                                                                     | spl@ulaval.ca             |
+| Université du Québec à Montréal (UQAM) | Montreal    | [vie-etudiante.uqam.ca/](https://vie-etudiante.uqam.ca/)                                                         | vie-etudiante@uqam.ca     |
+| Université de Sherbrooke               | Sherbrooke  | [usherbrooke.ca/ssp/](https://www.usherbrooke.ca/ssp/)                                                           | ssp@usherbrooke.ca        |
+| Bishop's University                    | Sherbrooke  | [ubishops.ca/student-services/career-development/](https://www.ubishops.ca/student-services/career-development/) | career@ubishops.ca        |
+| École de technologie supérieure (ÉTS)  | Montreal    | [etsmtl.ca/services-aux-etudiants/emplois-stages](https://www.etsmtl.ca/services-aux-etudiants/emplois-stages)   | sae@etsmtl.ca             |
+| HEC Montréal                           | Montreal    | [hec.ca/services/carrieres/](https://www.hec.ca/services/carrieres/)                                             | services.carrieres@hec.ca |
+| Polytechnique Montréal                 | Montreal    | [polymtl.ca/carrieres/](https://www.polymtl.ca/carrieres/)                                                       | carrieres@polymtl.ca      |
+
+### Colleges
+
+| College Name                    | City                    | Career Website                                                                                                                                                                                                             | Email                            |
+| ------------------------------- | ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
+| Dawson College                  | Montreal                | [dawsoncollege.qc.ca/career-resource-centre/](https://www.dawsoncollege.qc.ca/career-resource-centre/)                                                                                                                     | info@dawsoncollege.qc.ca         |
+| LaSalle College                 | Montreal                | [lasallecollege.com/student-services/career-services](https://www.lasallecollege.com/student-services/career-services)                                                                                                     | career.services@lcieducation.com |
+| John Abbott College             | Sainte-Anne-de-Bellevue | [johnabbott.qc.ca/student-services/career-centre/](https://www.johnabbott.qc.ca/student-services/career-centre/)                                                                                                           | info@johnabbott.qc.ca            |
+| Champlain College Saint-Lambert | Saint-Lambert           | [champlainonline.com/champlainweb/student-services/career-services/](https://www.champlainonline.com/champlainweb/student-services/career-services/)                                                                       | info@champlaincollege.qc.ca      |
+| Vanier College                  | Montreal                | [vaniercollege.qc.ca/student-services/career-planning/](https://www.vaniercollege.qc.ca/student-services/career-planning/)                                                                                                 | info@vaniercollege.qc.ca         |
+| Cégep de Saint-Laurent          | Montreal                | [cegep-st-laurent.qc.ca/services-aux-etudiants/orientation-et-information-scolaire-et-professionnelle/](https://www.cegep-st-laurent.qc.ca/services-aux-etudiants/orientation-et-information-scolaire-et-professionnelle/) | info@cegep-st-laurent.qc.ca      |
+| Collège Ahuntsic                | Montreal                | [collegeahuntsic.qc.ca/services-aux-etudiants/orientation-et-information-scolaire-et-professionnelle](https://www.collegeahuntsic.qc.ca/services-aux-etudiants/orientation-et-information-scolaire-et-professionnelle)     | info@collegeahuntsic.qc.ca       |
+| Cégep du Vieux Montréal         | Montreal                | [cvm.qc.ca/services/orientation/](https://www.cvm.qc.ca/services/orientation/)                                                                                                                                             | info@cvm.qc.ca                   |
+| Collège de Maisonneuve          | Montreal                | [cmaisonneuve.qc.ca/services-aux-etudiants/orientation-et-information-scolaire-et-professionnelle/](https://www.cmaisonneuve.qc.ca/services-aux-etudiants/orientation-et-information-scolaire-et-professionnelle/)         | info@cmaisonneuve.qc.ca          |
+| Collège Montmorency             | Laval                   | [cmontmorency.qc.ca/services-aux-etudiants/orientation-et-information-scolaire-et-professionnelle/](https://www.cmontmorency.qc.ca/services-aux-etudiants/orientation-et-information-scolaire-et-professionnelle/)         | info@cmontmorency.qc.ca          |
