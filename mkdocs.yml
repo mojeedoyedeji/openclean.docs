@@ -1,12 +1,16 @@
-site_name: CareerMaple Docs
-site_url: https://careermaple.readthedocs.io/
-repo_url: https://github.com/mojeedoyedeji/careermaple.docs
+site_name: OpenClean Docs
+site_url: https://openclean.readthedocs.io/
+repo_url: https://github.com/mojeedoyedeji/openclean.docs
 docs_dir: docs/source/content
 
 theme:
   name: readthedocs
   nav_style: dark
   highlightjs: true
+  hljs_languages:
+    - http
+    - yaml
+    - bash
 
 plugins:
   - search
@@ -17,33 +21,138 @@ plugins:
             docstring_style: sphinx
 
 markdown_extensions:
-  - markdown_include.include:
-      base_path: .
+  #- markdown_include.include:
+  #    base_path: .
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
   - admonition
+
+extra_css:
+  - styles/extra.css
 nav:
-  - Home: index.md
+  - Overview: index.md
+
   - Getting Started:
-      - Overview: getting-started/overview.md
-      - User Roles & Permissions: getting-started/user-roles.md
-      - Account Credentials: getting-started/account.md
-      - CareerMaple Dashboard: getting-started/dashboard.md
-      - Institutions:
-          - Alberta: institutions/alberta.md
-          - British Columbia: institutions/british_columbia.md
-          - Manitoba: institutions/manitoba.md
-          - Nova Scotia: institutions/nova_scotia.md
-          - New Brunswick: institutions/new_brunswick.md
-          - Newfoundland and Labrador: institutions/newfoundland.md
-          - Northwest Territories: institutions/northwest.md
-          - Nuvanut: institutions/nuvanut.md
-          - Ontario: institutions/ontario.md
-          - Prince Edwards Island: institutions/pei.md
-          - Quebec: institutions/quebec.md
-          - Sasktachewan: institutions/saskatchewan.md
-          - Yukon: institutions/yukon.md
-  - How to Guides:
-      - Manage Institutions: guide/postman/institutions.md
-      - Manage Listings: guide/postman/listings.md
-  - Glossary & References:
-      - Key Terms: glossary/terms.md
-      - External Resources: glossary/references.md
+      - What is OpenClean?: getting-started/intro.md
+      - Platform at a Glance: getting-started/overview.md
+      - User Roles & Permissions: getting-started/roles.md
+      - System Architecture: getting-started/architecture.md
+
+  - Clients:
+      - Create an Account: clients/signup.md
+      - Find a Service: clients/explore.md
+      - Search & Filters: clients/search.md
+      - Request a Quote: clients/quotes.md
+      - Book & Pay: clients/bookings.md
+      - Manage Bookings: clients/manage.md
+      - Notifications & Alerts: clients/notifications.md
+      - Submit Reviews: clients/reviews.md
+      - Support & Help: clients/support.md
+
+  - Service Providers:
+      - Get Started & Verify: providers/onboarding.md
+      - Create Service Listings: providers/listings.md
+      - Handle Quote Requests: providers/quotes.md
+      - Manage Bookings: providers/bookings.md
+      - Track Earnings & Payouts: providers/payouts.md
+      - Fulfillment Workflow: providers/fulfillment.md
+      - Service Page: providers/service-page.md
+      - Notifications & Alerts: providers/notifications.md
+      - Reviews & Ratings: providers/reviews.md
+
+  - Admins:
+      - Dashboard: admins/dashboard.md
+      - User Management: admins/users.md
+      - Service Management: admins/services.md
+      - View Logs & Reports: admins/reports.md
+      - Analytics & KPIs: admins/analytics.md
+      - Workflows: admins/workflows.md
+      - Settings: admins/settings.md
+
+  - API Documentation:
+      - Overview: api/overview.md
+      - Authentication & Authorization: api/auth.md
+      - Endpoints:
+          - Providers: api/endpoints/providers.md
+          - Clients: api/endpoints/clients.md
+          - Services: api/endpoints/services.md
+          - Quotes: api/endpoints/quotes.md
+          - Bookings: api/endpoints/bookings.md
+          - Transactions: api/endpoints/transactions.md
+          - Reviews: api/endpoints/reviews.md
+          - Admin: api/endpoints/admin.md
+      - Webhooks & Events: api/webhooks.md
+      - Rate Limits & Errors: api/errors.md
+      - Overview & Authentication: api/overview.md
+      - Security & Access Control: api/security.md
+
+  - Database Schema:
+      - Overview: database/overview.md
+      - Entity Relationship Diagram: database/erd.md
+      - Tables:
+          - Admin: database/tables/admin.md
+          - Bookings: database/tables/bookings.md
+          - Booking Logs: database/tables/booking_logs.md
+          - Clients: database/tables/clients.md
+          - Resources: database/tables/resources.md
+          - Notifications: database/tables/notifications.md
+          - Payments: database/tables/payments.md
+          - Providers: database/tables/providers.md
+          - Quotes: database/tables/quotes.md
+          - Quote Logs: database/tables/quote_logs.md
+          - Reviews: database/tables/reviews.md
+          - Services: database/tables/services.md
+          - Subscriptions: database/tables/subscriptions.md
+          - Transactions: database/tables/transactions.md
+          - Reviews: database/tables/reviews.md
+  - Platform UI:
+      - Client:
+          - Layout & Navigation: frontend/client/structure.md
+          - Auth & Routing: frontend/client/auth.md
+          - Booking Components: frontend/client/bookings.md
+          - Reviews: frontend/client/reviews.md
+      - Provider:
+          - Dashboard & Layout: frontend/provider/structure.md
+          - Quotes: frontend/provider/quotes.md
+          - Transactions: frontend/provider/transactions.md
+          - Notifications: frontend/provider/notifications.md
+      - Admin:
+          - Admin Panel Design: frontend/admin/structure.md
+          - User Management: frontend/admin/management.md
+          - Analytics Dashboard: frontend/admin/analytics.md
+      - Shared Modules:
+          - UI Components & Styling: frontend/shared/components.md
+          - State Management: frontend/shared/state.md
+          - Error Handling: frontend/shared/errors.md
+          - Testing: frontend/shared/testing.md
+  - Application Layer:
+      - Client:
+          - Registration & Auth: backend/client/auth.md
+          - Booking Engine: backend/client/bookings.md
+          - Guest Booking Support: backend/client/guest-bookings.md
+          - Review Handling: backend/client/reviews.md
+      - Provider:
+          - Onboarding & Login: backend/provider/auth.md
+          - Bookings: backend/provider/bookings.md
+          - Payments: backend/provider/payments.md
+      - Admin:
+          - User Management: backend/admin/users.md
+          - Moderation Workflows: backend/admin/services.md
+          - System Reports & Logs: backend/admin/logs.md
+      - System:
+          - Architecture: backend/system/architecture.md
+          - Email Workflows & Templates: backend/system/emails.md
+          - Notification System: backend/system/notifications.md
+          - Error Handling & Logging: backend/system/errors.md
+          - Security & Permissions: backend/system/security.md
+          - CI/CD & Deployment: backend/system/deployment.md
+          - Monitoring & Alerts: backend/system/monitoring.md
+
+  - Reference:
+      - Glossary of Terms: reference/terms.md
+      - Changelog: reference/changelog.md
