@@ -78,18 +78,16 @@ nav:
       - Overview: api/overview.md
       - Authentication & Authorization: api/auth.md
       - Endpoints:
+          - Bookings: api/endpoints/bookings.md
+          - Quotes: api/endpoints/quotes.md
           - Providers: api/endpoints/providers.md
           - Clients: api/endpoints/clients.md
           - Services: api/endpoints/services.md
-          - Quotes: api/endpoints/quotes.md
-          - Bookings: api/endpoints/bookings.md
           - Transactions: api/endpoints/transactions.md
           - Reviews: api/endpoints/reviews.md
           - Admin: api/endpoints/admin.md
       - Webhooks & Events: api/webhooks.md
       - Rate Limits & Errors: api/errors.md
-      - Overview & Authentication: api/overview.md
-      - Security & Access Control: api/security.md
 
   - Database Schema:
       - Overview: database/overview.md
