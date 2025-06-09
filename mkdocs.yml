@@ -80,11 +80,12 @@ nav:
       - Endpoints:
           - Bookings: api/endpoints/bookings.md
           - Quotes: api/endpoints/quotes.md
+          - Services: api/endpoints/services.md
+          - Reviews: api/endpoints/reviews.md
+          - Transactions: api/endpoints/transactions.md
+          - Links: api/endpoints/links.md
           - Providers: api/endpoints/providers.md
           - Clients: api/endpoints/clients.md
-          - Services: api/endpoints/services.md
-          - Transactions: api/endpoints/transactions.md
-          - Reviews: api/endpoints/reviews.md
           - Admin: api/endpoints/admin.md
       - Webhooks & Events: api/webhooks.md
       - Rate Limits & Errors: api/errors.md
